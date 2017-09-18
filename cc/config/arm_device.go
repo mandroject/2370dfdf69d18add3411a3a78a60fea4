@@ -244,6 +244,7 @@ var (
 		"cortex-a53":     "${config.ArmCortexA7Cflags}",
 		"cortex-a53.a57": "${config.ArmCortexA7Cflags}",
 		"krait":          "${config.ArmKraitCflags}",
+		"kryo":          "${config.ArmKryoCflags}",
 		"denver":         "${config.ArmCortexA15Cflags}",
 	}
 
@@ -261,6 +262,7 @@ var (
 		"cortex-a53":     "${config.ArmClangCortexA7Cflags}",
 		"cortex-a53.a57": "${config.ArmClangCortexA7Cflags}",
 		"krait":          "${config.ArmClangKraitCflags}",
+		"kryo":          "${config.ArmClangKryoCflags}",
 		"denver":         "${config.ArmClangCortexA15Cflags}",
 	}
 )
